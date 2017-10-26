@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	height: auto;
+    margin:0;
+}
+#wholepage{
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	width:960px;
+}
+#topnav{
+	width:800px;
+	text-align: center;
+	margin: auto;
+	background-color:slategray;
+}
+#topnav a{
+	text-decoration: none;
+	padding:20px;
+	font-family: garamond;
+	font-size: 30px;
+	color:midnightblue;
+	
+}
+#topnav a:hover{
+	background-color:brown;
+}
+#topnav a.current{
+	background-color:brown;
+	color:#fff;
+}
+#bodypart{
+	overflow: hidden;
+	text-align: center;
+}
+#sidecolumn{
+	float:right;
+	width: 25%;
+}
+#sidenews{
+	list-style: none;
+}
+#sidenews a{
+	text-decoration: none;
+	
+}
+#introduction{
+	float: left;
+	width:310px;
+	text-align: justify;
+	font-size: 12px;
+	overflow: hidden;
+	margin:15px;
+}
+#introduction h1{
+	text-align: center;
+	font-size:22px;
+}
+#content{
+	float:right;
+	width:310px;
+	text-align: justify;
+    font-size: 12px;
+	overflow: hidden;
+	margin:15px;
+}
+#content h1{
+	text-align: center;
+	font-size:22px;
+}
+#cpart{
+	overflow: hidden;
+}
+#examplelist{
+	list-style: none;
+}
+#examplelist li{
+	float: left;
+	
+}
+#examplelist ul li{
+	float: none;
+}
+h2{
+	font-size: 30px;
+	text-align: center;
+	margin:12px;
+}
+p1{
+	font-size:20px;
+	text-align: center;
+	margin:20px;
+	padding:10px;
+}
+.active{
+	color: darkturquoise;
+}
